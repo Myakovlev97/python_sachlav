@@ -1,8 +1,0 @@
-name = input("Enter data: ")
-print(name[0])
-print(name[-1])
-a = len(name)
-print(name[a//2])
-print(name[::2])
-print(name[1::2])
-print(name[::-1])
