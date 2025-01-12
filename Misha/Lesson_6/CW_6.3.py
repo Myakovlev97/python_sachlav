@@ -1,0 +1,5 @@
+l = list(map(int, input("Enter data: ").split()))
+l2 = sorted(l)
+print(sorted(l2))
+print(l2[::-1])
+print(reversed(l2))
