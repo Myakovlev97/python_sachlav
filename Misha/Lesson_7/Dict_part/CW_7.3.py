@@ -1,3 +1,5 @@
+import pprint
+
 user = {
     "id": 4170,
     "uid": "435hbjh34b53jh4b34",
@@ -14,6 +16,4 @@ user = {
 a = user.pop("password")
 b = user.pop("last_name")
 user.update({"secret": a, "surname": b})
-
-import pprint
 pprint.pprint(user)

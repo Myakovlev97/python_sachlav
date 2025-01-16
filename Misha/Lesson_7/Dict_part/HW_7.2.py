@@ -1,3 +1,5 @@
+import pprint
+
 workers = {
     "employer1": {"name": "John", "salary": 7500},
     "employer2": {"name": "Emma", "salary": 8000},
@@ -5,5 +7,4 @@ workers = {
 }
 workers["employer3"]["salary"] = 8500
 
-import pprint
 pprint.pprint(workers)
